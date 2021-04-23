@@ -1,0 +1,40 @@
+body {
+    background: pink;
+}
+.border {
+    border: 1px red;
+}
+.blue-border {
+border: 1px red;
+}
+.main-container {
+    height: 100vh;
+
+}
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-border {
+height: 60px;
+width: 200px;
+}
+
+main {
+    height: calc(100vh-80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
